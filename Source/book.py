@@ -9,7 +9,7 @@ class Book:
 
     def add_book(self, title, author):
         new_book = {}
-        new_book["Title"] = title
+        new_book["Title"] = titles
         new_book["Author"] = author
         self.books.append(new_book)
         print("Book: {0}".format(new_books))
