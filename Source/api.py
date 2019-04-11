@@ -1,7 +1,7 @@
 import tornado.ioloop
 import tornado.web
 from book import Book
-from addhandler import AddHandler
+from addhandler import AddHandlers
 from delhandler import DelHandler
 from gethandler import GetHandler
 
