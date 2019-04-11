@@ -12,7 +12,7 @@ class Book:
         new_book["Title"] = title
         new_book["Author"] = author
         self.books.append(new_book)
-        print("Book: {0}".format(new_book))
+        print("Book: {0}".format(new_books))
         return json.dumps(new_book)
 
     def del_book(self, title):
