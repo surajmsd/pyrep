@@ -2,7 +2,7 @@ import json
 #test py - pytest 13:52
 
 
-class Books:
+class Book:
 
     def __init__(self):
         self.books = []
