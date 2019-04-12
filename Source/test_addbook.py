@@ -8,4 +8,4 @@ books = Book()
 class addTest(unittest.TestCase):
     def test_add(self):
         result = books.add_book('Book1', 'Author1')
-        assert result
+        assert result 
